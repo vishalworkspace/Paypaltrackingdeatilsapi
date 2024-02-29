@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="VendorName\TrackingInfo\Model\Config">
+        <arguments>
+            <argument name="clientId" xsi:type="string">AXq4Jym3XfFSf67pJt2HtOvqiHkDBoo1KgJ0YAhlypTAHewQf8tpSh9oLuKAoq8RbdBo63F5dlM9-NaP</argument>
+            <argument name="clientSecret" xsi:type="string">EADsAmRw1OfWzpvB6eTfQVMT3A8Fz1nn0lOU3FwwwC7dAVKzhxGwjiMhG4rxohwcCpPiIsggPfhM84kz</argument>
+        </arguments>
+    </type>
+    <preference for="VendorName\TrackingInfo\Api\TestInterface" type="VendorName\TrackingInfo\Model\Test" />
+</config>
+ 
